@@ -1,0 +1,99 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указывает язык содержимого -->
+<html lang='ru'>
+<head>
+<!-- Кодировка страницы -->
+<meta charset='UTF-8'>
+<!-- Версия веб-браузера -->
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<!-- Ширина области просмотра такая же, как и ширина экрана, начальный масштаб страницы 100%-->
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Таблица лидеров</title>
+<!-- Подключаем CSS -->
+<link rel='stylesheet' href='css/styles.css'>
+</head>
+<!-- Отображаемое тело страницы -->
+<body>
+    <main class="main-page main-page">
+
+        <div class="main-page__body">
+            <header class="main-page__header">
+                <div class="main-page__row"></div>
+                <h1 class="main-page__title title">Chess_48</h1>
+                <div id="mainpage__logo">
+                    <img src="img/logo/Logo.png" alt="Sorry, can't load this image">
+                </div>
+            <div class="main-page__nav-row">
+                <nav class="main-page__nav-sections">
+                    <a href="#">Новости</a>
+                    <a href="index-tournaments.html">Турниры</a>
+                    <a href="#">Задачи</a>
+                    <a href="index-leaders_table.html">Таблица лидеров</a>
+                </nav>
+            </div>
+            </header>
+        <footer class="main-page__footer">
+            <div class="main-page__footerrow">
+                <button>Магазин</button>
+        <p> Помощь | Конфиденциальность| Сообщество | Chess48.com | </p>
+            </div>               
+        </footer>      
+           <table class="main-page__leaders-table"border="1">
+        <caption><h1 class="title">Лидеры шахматного турнира</h1></caption>
+        <!-- <colgroup>
+            <col span="Имя">
+            <col span="Количество побед">
+            <col span="Количество поражений">
+        </colgroup> -->
+        <thead>
+        <tr>
+            <th scope="col">Участник</th>
+            <th scope="col">Статус</th>
+            <th scope="col">Любимая фигура</th>
+            <th scope="col">Количество побед</th>
+            <th scope="col">Количество поражений</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">Роман Свитюк</th>
+                <th scope="col">новичок</th>
+                <th scope="col">ладья</th>
+                <th scope="col">2</th>
+                <th scope="col">5</th>
+            </tr>
+            <tr>
+                <th scope="col">Юрий Большаков</th>
+                <th scope="col">новичок</th>
+                <th scope="col">замок</th>
+                <th scope="col">5</th>
+                <th scope="col">2</th>
+            </tr>
+            <tr>
+                <th scope="col">Гарик Каспаров</th>
+                <th scope="col">чемпион мира</th>
+                <th scope="col">ферзь</th>
+                <th scope="col">23</th>
+                <th scope="col">7</th>
+            </tr>
+            <tr>
+                <th scope="col">Игорь Страховщик</th>
+                <th scope="col">мастер спорта</th>
+                <th scope="col"> слон</th>
+                <th scope="col">23</th>
+                <th scope="col">7</th>
+            </tr>
+            <tr>
+                <th scope="col">Матвей Кочубей</th>
+                <th scope="col">чемпион Европы</th>
+                <th scope="col">конь</th>
+                <th scope="col">16</th>
+                <th scope="col">3</th>
+            </tr>
+        </tbody>
+           </table>                   
+        </div>
+        </main> 
+</body>
+</html>
